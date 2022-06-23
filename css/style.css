@@ -1,0 +1,468 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Roboto Slab', serif;
+    color: azure;
+    
+    
+}
+.neon{
+ 
+        color: #fff;
+       
+        text-shadow:
+            0 0 5px rgba(0,178,255,1),
+            0 0 10px rgba(0,178,255,1),
+            0 0 20px rgba(0,178,255,1),
+            0 0 40px rgba(38,104,127,1),
+            0 0 80px rgba(38,104,127,1),
+            0 0 90px rgba(38,104,127,1),
+            0 0 100px rgba(38,104,127,1),
+            0 0 140px rgba(38,104,127,1),
+            0 0 180px rgba(38,104,127,1);
+            text-align: center;
+    }
+
+
+   
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    text-shadow:
+        0 0 5px rgb(214, 31, 107),
+        0 0 10px rgb(255, 0, 128),
+        0 0 20px rgb(245, 152, 180),
+        0 0 40px rgb(238, 132, 164),
+        0 0 80px rgba(238, 132, 164),
+        0 0 90px rgba(238, 132, 164),
+        0 0 100px rgba(238, 132, 164),
+        0 0 140px rgba(238, 132, 164),
+        0 0 180px rgba(238, 132, 164);
+        background-color: #1d1b1b;
+        padding: auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'DM Serif Display', serif;
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Poiret One', cursive;
+    color: #fff;
+    text-shadow:
+        0 0 5px rgb(214, 31, 107),
+        0 0 10px rgb(255, 0, 128),
+        0 0 20px rgb(245, 152, 180),
+        0 0 40px rgb(238, 132, 164),
+        0 0 80px rgba(238, 132, 164),
+        0 0 90px rgba(238, 132, 164),
+        0 0 100px rgba(238, 132, 164),
+        0 0 140px rgba(238, 132, 164),
+        0 0 180px rgba(238, 132, 164);
+}
+  
+
+
+.primeraseccion{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.primerseccion{
+    background-color: black;
+    margin-left: 50px;
+
+    
+
+}
+.hijo{
+    background-color: black;
+    margin-right: 50px;
+    flex-direction: column;
+}
+
+.listaservicios{
+display: flex;
+justify-content: center;
+}
+.listalogos{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+form{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/687/802/393/neon-purple-pink-simple-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+
+.contenedorvideo{
+    margin-top: 300px;
+   display: flex;
+   justify-content: center;
+}
+
+
+.grid{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+.cajagrid{
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgb(235, 49, 89);
+    margin: 15px;
+    color: black;
+    text-align: center;
+    float: left;
+}
+footer{
+    margin-top: 15%;
+    background-color: #1d1b1b;
+    width: 100%;
+    }
+
+.contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.quienesomos1{
+    background-color: rgb(105, 11, 82);
+    padding: 50px;
+}
+.quienesomos2{
+    margin-top: 50px;
+    padding: 50px;
+    background-color: blueviolet;  
+}
+.contenedorformulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.contenedorimagen{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+       
+    .grid{
+
+        display: flex;
+    }
+
+    .cajagrid{
+       float: left;
+      
+    }
+   
+   
+    .contenedorformulario{
+      width: 95%;
+      display: flex;
+      margin:auto;
+    }
+    form{
+        width: 50%;
+        font-size: small;
+        align-items: left;
+    }
+    textarea{
+        width: 160px;
+    }
+    footer{
+        padding-top: 50px;
+    }
+.contenedorcarrusel{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-left: 200px; 
+}
+.contenedorgrilla1{
+    display: flex;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+.carousel-control-prev,.carousel-control-next{
+    padding-top: 800px;
+    margin-top: 850px;
+}
+#carouselExampleSlidesOnly{
+    padding: 100px 100px 100px 100px;
+}
+
+.dentro{
+    width: 100%;
+    justify-content:space-around
+}
+#accordionExample{
+    padding: 50px;
+    
+}
+.accordion-body{
+    background-color: rgb(49, 196, 233);
+}
+.accordion-button{
+    background-color:black;
+    color: #fff;
+    
+}
+.contenedorboton{
+   padding: auto;
+    margin-left: 600px;
+    margin-right: 200px;
+
+  
+}
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 20;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    
+}
+.btn-neon:hover{
+    background-color: fuchsia;
+    box-shadow: 0 0 10px fuchsia, 0 0 40px fuchsia, 0 0 80px fuchsia;
+    transition-delay: 1s;
+}
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,fuchsia)
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1seg;
+}
+#span3{
+    bottom: 0;
+    right: -100;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,fuchsia)
+}
+.btn-neon:hover #span3{
+    right:100%;
+    transition:1s;
+}
+#span2{
+    top: -100;
+    right:0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,fuchsia)
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition:1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,fuchsia)
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition:1s;
+    transition-delay: 0.75s;
+}
+.contenedorformulario:hover{
+    transform: scale(1.5);
+    transition-delay: 0.75s;
+}
+
+
+.pie{
+    margin-top: 200px;
+    margin-right: 100px;
+    align-items: center;
+    display: flex;
+   
+}
+.hijopie{
+    justify-content: center;
+    margin: auto    ;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    
+}
+
+
+
+
+/*Inicio parte responsive*/
+/*Nota para el tutor
+Aún se me dificulta el tema de las Medias Q asi que dejo los colores para guiarme*/
+
+
+@media screen and (max-width:1920px) {
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    
+}
+/*desktop*/
+@media screen and (max-width:1280px) {
+    body{
+        background-color: black
+    }
+    
+}
+/*mobile*/
+@media screen and (max-width:800px) {
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    .primeraseccion{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .primerseccion{
+        margin: auto;
+    }
+    .hijo{
+        margin: auto;
+        padding: 5%;
+    }
+    .video{
+        width: 335px;
+    }
+    .contenedorcarrusel{
+        height: 50%;
+        width: 100%;
+    }
+    .contenedorboton{
+        margin-left: 270px;
+}
+.pie{
+    margin-top: 200px;
+    margin-right: 20px;
+}
+
+}
+@media screen and (max-width:200px) {
+    body{
+        background-color:rgb(0, 0, 0)
+    }
+    .primeraseccion{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .primerseccion{
+        margin: 30px;
+    }
+    .hijo{
+        margin: auto;
+        justify-content: center;
+    }
+    .video{
+        width: 335px;
+    }
+    .header{
+        width: 50%;
+    }
+    .pie{
+        margin: 8px;
+    }
+    .imagen4{
+        width: 100%;
+    }
+    .contenedorcarrusel{
+        height: 200px;
+        width: 50%;
+    }
+    .contenedorboton{
+        margin-left: 270px;
+}
+}
+@media only screen 
+and (min-width: 320px){}
+
+  body{
+        background-color:rgb(0, 0, 0)
+    }
+    .primeraseccion{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .primerseccion{
+        margin: 30px;
+    }
+    .hijo{
+        margin: auto;
+        justify-content: center;
+    }
+    .video{
+        width: 335px;
+    }
+    .header{
+        width: 50%;
+    }
+    .pie{
+        margin: 8px;
+    }
+    .imagen4{
+        width: 100%;
+    }
+    .contenedorcarrusel{
+        margin: 50px 80px 80px 50px;
+        padding: 50px 80px 40px 50px;
+        
+    }
+    .contenedorboton{
+        margin-left: 270px;
+    }
