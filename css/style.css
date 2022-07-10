@@ -337,8 +337,70 @@ footer{
     display: flex;
     
 }
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.contenedor figure{
+    position: relative ;
+    height: 500px;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: #fff;
+    cursor: pointer;
+}
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+   background: rgba(0, 0, 0, 0.8);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+} 
+.contenedor figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
 
-
+}
+.contenedor figure:hover > .capa h3{
+ margin-top: 70px;
+ margin-bottom: 15px;
+}
+.contenedor figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.contenedor figure .capa .parrafoefecto{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+.contenedor figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedorastronauta{
+    
+    margin-left: 100px;
+}
 
 
 /*Inicio parte responsive*/
@@ -427,6 +489,7 @@ Aún se me dificulta el tema de las Medias Q asi que dejo los colores para guiar
     .contenedorboton{
         margin-left: 270px;
 }
+
 }
 @media only screen 
 and (min-width: 320px){}
@@ -466,3 +529,5 @@ and (min-width: 320px){}
     .contenedorboton{
         margin-left: 270px;
     }
+
+    
